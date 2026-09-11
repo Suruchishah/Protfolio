@@ -1,1 +1,398 @@
-Hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Suruchi Shah — Computer Engineer working across software development, AI/ML, analytics, marketing, and creative technology." />
+  <title>Suruchi Shah — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">SS<span>.</span></a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-link" href="#contact">Let's talk ↗</a>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">Computer Engineer · Builder · Problem Solver</p>
+        <h1>I build things where <em>technology</em> meets people.</h1>
+        <p class="hero-text">
+          I'm Suruchi, a Computer Engineer working across software development,
+          AI/ML, analytics, marketing, and creative technology. I like turning
+          messy problems into useful, understandable solutions.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-dark" href="#work">Explore my work <span>↓</span></a>
+          <a class="text-link" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+
+        <div class="quick-facts">
+          <div><strong>2025</strong><span>Computer Engineering</span></div>
+          <div><strong>01+</strong><span>Year professional experience</span></div>
+          <div><strong>60+</strong><span>Bootcamp participants supported</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <!-- IMAGE PLACEHOLDER: replace assets/profile.jpg with your photo -->
+       <div class="portrait-placeholder">
+    <span class="portrait-number">01</span>
+        <img src="assets/profile.jpg" alt="Suruchi Shah">
+     </div>
+        </div>
+        <div class="floating-note">
+          <span>Currently exploring</span>
+          <strong>Full-stack · AI · Growth</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRO / POSITIONING -->
+    <section class="intro section">
+      <div class="section-label">01 / What I do</div>
+      <div class="intro-grid">
+        <h2>Technical thinking, creative execution, measurable outcomes.</h2>
+        <div>
+          <p>
+            My background in Computer Engineering taught me to break complex
+            problems into systems. Working in marketing taught me to think about
+            people, behavior, communication, and outcomes.
+          </p>
+          <p>
+            I bring those two sides together through development, data,
+            AI/ML, marketing strategy, and design.
+          </p>
+        </div>
+      </div>
+
+      <div class="pillars">
+        <article class="pillar">
+          <span class="pillar-no">01</span>
+          <h3>Technology</h3>
+          <p>Software development, backend systems, web applications, databases, and practical problem solving.</p>
+          <span class="pillar-tags">C# · ASP.NET · Python · JavaScript</span>
+        </article>
+
+        <article class="pillar">
+          <span class="pillar-no">02</span>
+          <h3>AI & Data</h3>
+          <p>Machine learning from scratch, data analysis, experimentation, and using data to understand problems.</p>
+          <span class="pillar-tags">ML · NumPy · Pandas · NLP</span>
+        </article>
+
+        <article class="pillar">
+          <span class="pillar-no">03</span>
+          <h3>Creative</h3>
+          <p>Marketing content, visual communication, UI design, campaigns, and turning ideas into clear experiences.</p>
+          <span class="pillar-tags">Figma · Content · Campaigns</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="work section">
+      <div class="section-heading">
+        <div>
+          <div class="section-label">02 / Selected work</div>
+          <h2>A few things I've built.</h2>
+        </div>
+        <p>Projects that show how I think, build, experiment, and communicate.</p>
+      </div>
+
+      <div class="featured-project">
+        <div class="project-image project-image-neelcamp">
+          <span>CASE STUDY 01</span>
+          <div class="mock-window">
+            <div class="mock-top"><i></i><i></i><i></i></div>
+            <div class="mock-content">
+              <small>NEELCAMP</small>
+              <strong>Growth &amp;<br>marketing</strong>
+              <div class="mock-bars"><b></b><b></b><b></b></div>
+            </div>
+          </div>
+        </div>
+        <div class="project-copy">
+          <p class="project-type">Real-world experience · Marketing · Growth</p>
+          <h3>Neelcamp Growth & Marketing</h3>
+          <p>
+            Worked across promotional content, social media, campaigns,
+            provider outreach, competitor research, marketplace communication,
+            and audience growth for a summer-camp and after-school marketplace.
+          </p>
+          <div class="project-meta">
+            <span>Content strategy</span>
+            <span>Campaigns</span>
+            <span>Provider outreach</span>
+            <span>Research</span>
+          </div>
+          <a class="project-link" href="#" onclick="return showPlaceholder(event, 'Neelcamp case study link')">View case study ↗</a>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="card-visual visual-analytics">
+            <span>02</span>
+            <div class="analytics-lines"><i></i><i></i><i></i><i></i></div>
+            <strong>USER<br>BEHAVIOR</strong>
+          </div>
+          <div class="card-body">
+            <p class="project-type">Analytics · Product thinking</p>
+            <h3>Neelcamp Analytics / User Behavior</h3>
+            <p>Exploring user behavior and friction points to turn observations into practical product and growth recommendations.</p>
+            <a href="#" onclick="return showPlaceholder(event, 'Analytics case study link')">View project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-visual visual-ml">
+            <span>03</span>
+            <div class="ml-node n1"></div><div class="ml-node n2"></div><div class="ml-node n3"></div>
+            <div class="ml-node n4"></div><div class="ml-node n5"></div>
+            <div class="ml-line l1"></div><div class="ml-line l2"></div><div class="ml-line l3"></div>
+            <strong>ML<br>FROM SCRATCH</strong>
+          </div>
+          <div class="card-body">
+            <p class="project-type">Python · Machine Learning</p>
+            <h3>ML-From-Scratch</h3>
+            <p>Implemented core machine-learning algorithms manually to understand model mechanics and their mathematical foundations.</p>
+            <a href="#" onclick="return showPlaceholder(event, 'ML project link')">View project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-visual visual-code">
+            <span>04</span>
+            <div class="code-lines">
+              <i>class Library</i>
+              <i>  Books { }</i>
+              <i>  Users { }</i>
+              <i>  Borrow()</i>
+            </div>
+            <strong>BACKEND<br>SYSTEM</strong>
+          </div>
+          <div class="card-body">
+            <p class="project-type">C# · ASP.NET · SQL Server</p>
+            <h3>Library Management System</h3>
+            <p>Built backend modules for book inventory, user authentication, and transaction records with database integration.</p>
+            <a href="#" onclick="return showPlaceholder(event, 'Library project link')">View project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-visual visual-database">
+            <span>05</span>
+            <div class="db-stack"><i></i><i></i><i></i></div>
+            <strong>CRUD<br>APPLICATION</strong>
+          </div>
+          <div class="card-body">
+            <p class="project-type">C# · SQL Server · ADO.NET</p>
+            <h3>CRUD in SQL</h3>
+            <p>Implemented Create, Read, Update, and Delete functionality through a C# application connected to SQL Server.</p>
+            <a href="#" onclick="return showPlaceholder(event, 'CRUD project link')">View project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-visual visual-figma">
+            <span>06</span>
+            <div class="phone-ui"><i></i><b></b><b></b><b></b></div>
+            <strong>ROOM<br>FINDER</strong>
+          </div>
+          <div class="card-body">
+            <p class="project-type">Figma · UI/UX</p>
+            <h3>Room Finder App</h3>
+            <p>Designed a clean mobile interface with intuitive navigation, consistent visual language, and responsive layouts.</p>
+            <a href="#" onclick="return showPlaceholder(event, 'Figma project link')">View project ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process section">
+      <div class="section-label">03 / How I work</div>
+      <div class="process-head">
+        <h2>Start with the problem.<br><em>Then build.</em></h2>
+        <p>
+          Whether I'm writing code, analyzing behavior, or creating a campaign,
+          I prefer a simple loop: understand what is happening, test an idea,
+          measure what changed, and improve it.
+        </p>
+      </div>
+
+      <div class="process-row">
+        <div><span>01</span><strong>Observe</strong><p>Understand the context and evidence.</p></div>
+        <div><span>02</span><strong>Think</strong><p>Break the problem down and form a hypothesis.</p></div>
+        <div><span>03</span><strong>Build</strong><p>Create the smallest useful solution.</p></div>
+        <div><span>04</span><strong>Measure</strong><p>Look at meaningful outcomes.</p></div>
+        <div><span>05</span><strong>Learn</strong><p>Keep what works and improve what doesn't.</p></div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="experience section">
+      <div class="section-label">04 / Experience</div>
+      <div class="experience-grid">
+        <div>
+          <h2>Real work.<br>Real responsibility.</h2>
+          <p class="experience-intro">
+            My professional experience sits at the intersection of marketing,
+            technology, design, and community building.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">JUN 2024 — PRESENT</div>
+            <div>
+              <h3>Marketing Coordinator</h3>
+              <h4>Neelgai · Remote</h4>
+              <ul>
+                <li>Designed promotional content for bootcamps, tech events, and social media.</li>
+                <li>Served as a mentor at the Janakpur Hackathon.</li>
+                <li>Co-coordinated the Janakpur Tech Bootcamp, supporting 60+ participants from underrepresented communities.</li>
+                <li>Contributed to marketing campaigns and outreach strategies to boost engagement.</li>
+                <li>Supported brand consistency through graphics and messaging across platforms.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">2021 — 2025</div>
+            <div>
+              <h3>Bachelor in Computer Engineering</h3>
+              <h4>Institute of Engineering, Dharan</h4>
+              <p>
+                Built a foundation across programming, software development,
+                databases, web technologies, and machine learning.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills section">
+      <div class="section-label">05 / Toolkit</div>
+      <div class="skills-grid">
+        <div class="skills-intro">
+          <h2>The tools<br>I work with.</h2>
+          <p>Projects are the proof. This is the toolkit behind them.</p>
+        </div>
+        <div class="skill-groups">
+          <div class="skill-group">
+            <span>Languages</span>
+            <p>Python · C · C++ · C# · HTML · CSS · JavaScript</p>
+          </div>
+          <div class="skill-group">
+            <span>Libraries & Frameworks</span>
+            <p>Pandas · NumPy · Matplotlib · React.js · Node.js · ASP.NET</p>
+          </div>
+          <div class="skill-group">
+            <span>Development</span>
+            <p>SQL Server · ADO.NET · Git · Visual Studio · VS Code · Jupyter Notebook</p>
+          </div>
+          <div class="skill-group">
+            <span>Creative</span>
+            <p>Figma · Canva · CapCut · After Effects · Visual communication</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about section">
+      <div class="section-label">06 / About</div>
+      <div class="about-grid">
+        <div class="about-large">
+          <p class="about-kicker">Engineer by training.<br>Builder by practice.</p>
+          <h2>I like the space between <em>code</em> and <em>people.</em></h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            I'm a Computer Engineering graduate from the Institute of Engineering,
+            Dharan. My work has taken me from backend development and machine
+            learning projects to marketing campaigns, event coordination, and
+            visual design.
+          </p>
+          <p>
+            That mix has shaped how I approach problems: technically enough to
+            understand the system, creatively enough to communicate the idea,
+            and practically enough to focus on what actually changes.
+          </p>
+          <div class="about-details">
+            <div><span>Based in</span><strong>Janakpurdham, Nepal</strong></div>
+            <div><span>Focus</span><strong>Software · AI · Analytics · Growth</strong></div>
+            <div><span>Education</span><strong>Bachelor in Computer Engineering</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLACEHOLDER / FUTURE -->
+    <section class="future section">
+      <div class="future-card">
+        <div>
+          <span class="section-label">07 / More coming soon</span>
+          <h2>This portfolio is still being built.</h2>
+          <p>
+            Next additions: detailed case studies, GitHub projects, measurable
+            campaign results, certificates, testimonials, and a proper project gallery.
+          </p>
+        </div>
+        <div class="future-list">
+          <span>+ Case studies</span>
+          <span>+ GitHub links</span>
+          <span>+ Results & metrics</span>
+          <span>+ Certifications</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact section">
+      <div class="section-label">08 / Contact</div>
+      <div class="contact-content">
+        <p class="eyebrow">Have a project, role, or interesting problem?</p>
+        <h2>Let's make<br><em>something useful.</em></h2>
+        <a class="email" href="mailto:ssuruchi333@gmail.com">ssuruchi333@gmail.com <span>↗</span></a>
+
+        <div class="contact-meta">
+          <span>Janakpurdham, Nepal</span>
+          <!--<span>+977 </span>-->
+          <div class="socials">
+            <!-- Replace # with your actual URLs -->
+            <a href="https://www.linkedin.com/in/suruchi-shah-106510231/" onclick="return showPlaceholder(event, 'LinkedIn URL')">LinkedIn</a>
+            <a href="https://github.com/Suruchishah" onclick="return showPlaceholder(event, 'GitHub URL')">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Suruchi Shah</span>
+    <span>Built with HTML, CSS & JavaScript</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
