@@ -32,7 +32,7 @@ export default {
       name: 'linkedinUrl',
       title: 'LinkedIn Profile URL',
       type: 'url',
-      initialValue: 'https://linkedin.com',
+      initialValue: 'https://www.linkedin.com/in/suruchi-shah-106510231/',
     },
     {
       name: 'githubUrl',
