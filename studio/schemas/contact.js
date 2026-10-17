@@ -19,7 +19,7 @@ export default {
       name: 'email',
       title: 'Email Address',
       type: 'string',
-      initialValue: '077bct090@ioepc.edu.np',
+      initialValue: 'ssuruchi333@gmail.com',
       validation: (Rule) => Rule.required(),
     },
     {
