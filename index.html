@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Suruchi Shah — Computer Engineer, Customer Behavior Analyst & Marketing Strategist Portfolio">
+    <title>Suruchi Shah — Computer Engineer & Marketing Strategist</title>
+
+    <!-- Google Fonts: Space Grotesk, Syne & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700;800&family=Syne:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Gradient & Ambient Red Lighting -->
+    <div class="bg-gradient-wrapper">
+        <div class="red-glow glow-center"></div>
+        <div class="red-glow glow-top-left"></div>
+    </div>
+
+    <!-- Centered Model Canvas (Background-Removed) -->
+    <canvas id="model-canvas"></canvas>
+
+    <!-- Header Navigation -->
+    <header class="main-header">
+        <div class="header-left">
+            <a href="#home" class="brand-logo" aria-label="Suruchi Shah Home">
+                <span class="logo-box">SS</span>
+            </a>
+        </div>
+
+        <!-- Mobile Navigation Toggle Button (Hidden on Desktop) -->
+        <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <nav class="header-right" id="primary-nav">
+            <a href="#home" class="nav-item active">HOME</a>
+            <a href="#education" class="nav-item">EDUCATION</a>
+            <a href="#experience" class="nav-item">EXPERIENCE</a>
+            <a href="#services" class="nav-item">SERVICES</a>
+            <a href="#contact" class="nav-item">CONTACT</a>
+            <div class="social-icons">
+                <a href="mailto:077bct090@ioepc.edu.np" aria-label="Send Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Suruchishah" target="_blank" aria-label="GitHub"><i
+                        class="fa-brands fa-github"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation Backdrop Overlay -->
+    <div class="nav-backdrop" id="nav-backdrop"></div>
+
+    <!-- Main Content Container -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-wrapper" id="home">
+            <!-- Left Side Info -->
+            <div class="hero-left-info">
+                <span class="bold-tag">SURUCHI SHAH/</span>
+                <p class="sub-caption">Computer Engineer & Marketing Strategist.<br>Bridging tech & user growth.</p>
+            </div>
+
+            <!-- Right Side Main Headline -->
+            <div class="hero-right-headline">
+                <h1 class="main-title">
+                    COMPUTER ENGINEER<br>
+                    BEHAVIOR ANALYST<br>
+                    STRATEGIST
+                </h1>
+                <div class="title-sub-description">
+                    <p>I leverage technical engineering thinking, customer behavior analysis, and content strategy to
+                        build impactful digital experiences.</p>
+                    <a href="#education" class="arrow-btn" aria-label="Scroll to Education">
+                        <span class="arrow-symbol">↗</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bottom Left Floating Cards -->
+            <div class="hero-bottom-cards">
+                <!-- White Solid Card -->
+                <div class="card-white">
+                    <div class="card-top">
+                        <span class="cross-icon">✣</span>
+                        <span class="card-tag">Computer Engineer</span>
+                    </div>
+                    <div class="card-big-metric">2025</div>
+                    <div class="card-bottom-text">B.E. Graduate (IOE)</div>
+                </div>
+
+                <!-- Frosted Red Glass Card -->
+                <div class="card-red-glass">
+                    <div class="card-top">
+                        <h3 class="card-title">Behavior & Strategy</h3>
+                        <span class="sparkle-icon">✦</span>
+                    </div>
+                    <p class="card-body-text">Analyzing user friction & connecting marketing insights with product
+                        growth.</p>
+                </div>
+            </div>
+
+            <!-- Bottom Right Pill Tags -->
+            <div class="hero-bottom-tags">
+                <button class="tag-pill active"><i class="fa-solid fa-asterisk"></i> BEHAVIOR ANALYSIS</button>
+                <button class="tag-pill">CONTENT STRATEGY</button>
+                <button class="tag-pill">WEB OPTIMIZATION</button>
+                <button class="tag-pill">TECH BOOTCAMPS</button>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education-section" id="education">
+            <div class="education-container">
+                <!-- Section Label -->
+                <div class="section-label">
+                    <span class="label-number">01 /</span>
+                    <span class="label-text">ACADEMIC BACKGROUND</span>
+                </div>
+
+                <!-- Main Education Glass Card -->
+                <div class="education-glass-card">
+                    <div class="edu-card-header">
+                        <div class="edu-institution-badge">
+                            <span class="cross-icon">✣</span>
+                            <span>IOE, Purwanchal Campus</span>
+                        </div>
+                        <span class="edu-year-badge">2025</span>
+                    </div>
+
+                    <h2 class="edu-degree-title">Bachelor’s in Computer Engineering</h2>
+
+                    <p class="edu-description">
+                        I graduated with a Bachelor’s degree in Computer Engineering, building a strong foundation in
+                        technology, problem-solving, and digital systems.
+                    </p>
+
+                    <div class="edu-skills-tags">
+                        <span class="edu-pill active"><i class="fa-solid fa-asterisk"></i> Computer Engineering</span>
+                        <span class="edu-pill">Digital Systems</span>
+                        <span class="edu-pill">Problem Solving</span>
+                        <span class="edu-pill">Software Architecture</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience-section" id="experience">
+            <div class="experience-container">
+                <!-- Section Label -->
+                <div class="section-label">
+                    <span class="label-number">02 /</span>
+                    <span class="label-text">WORK EXPERIENCE</span>
+                </div>
+
+                <!-- Experience Cards Stack -->
+                <div class="experience-cards-stack">
+                    <!-- Experience Card 1: Neelcamp -->
+                    <div class="experience-glass-card">
+                        <div class="exp-card-header">
+                            <div class="exp-company-badge">
+                                <span class="cross-icon">✣</span>
+                                <span>Neelcamp</span>
+                            </div>
+                            <span class="exp-type-badge full-time">Full-time</span>
+                        </div>
+
+                        <h2 class="exp-role-title">Marketing Coordinator</h2>
+
+                        <p class="exp-description">
+                            At Neelcamp, my work goes beyond traditional marketing. I analyze customer behavior and how
+                            users interact with the website to understand what works, where they face friction, and what
+                            can be improved. Alongside content strategy and design, I contribute to website and product
+                            improvements based on real customer behavior and feedback, connecting marketing insights
+                            with product decisions and business goals.
+                        </p>
+
+                        <div class="exp-skills-tags">
+                            <span class="exp-pill active"><i class="fa-solid fa-asterisk"></i> User Behavior
+                                Analysis</span>
+                            <span class="exp-pill">Website Optimization</span>
+                            <span class="exp-pill">Product Strategy</span>
+                            <span class="exp-pill">UX & Content</span>
+                        </div>
+                    </div>
+
+                    <!-- Experience Card 2: Neelgai -->
+                    <div class="experience-glass-card">
+                        <div class="exp-card-header">
+                            <div class="exp-company-badge">
+                                <span class="cross-icon">✣</span>
+                                <span>Neelgai</span>
+                            </div>
+                            <span class="exp-type-badge part-time">Part-time</span>
+                        </div>
+
+                        <h2 class="exp-role-title">Marketing Coordinator</h2>
+
+                        <p class="exp-description">
+                            At Neelgai, I worked as a Marketing Coordinator, managing marketing activities and
+                            supporting the planning and execution of technology bootcamps. I worked across promotion,
+                            content, communication, and community outreach, helping turn technical programs and ideas
+                            into campaigns that connected with the right audience.
+                        </p>
+
+                        <div class="exp-skills-tags">
+                            <span class="exp-pill active"><i class="fa-solid fa-asterisk"></i> Tech Bootcamps</span>
+                            <span class="exp-pill">Campaign Execution</span>
+                            <span class="exp-pill">Community Outreach</span>
+                            <span class="exp-pill">Content & Promotion</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section" id="services">
+            <div class="services-container">
+                <!-- Section Label -->
+                <div class="section-label">
+                    <span class="label-number">03 /</span>
+                    <span class="label-text">SERVICES & APPROACH</span>
+                </div>
+
+                <!-- Main Services Glass Card -->
+                <div class="services-glass-card">
+                    <div class="services-header">
+                        <div class="services-badge">
+                            <span class="cross-icon">✣</span>
+                            <span>What I Offer</span>
+                        </div>
+                        <span class="services-year-badge">Strategy & Execution</span>
+                    </div>
+
+                    <h2 class="services-main-title">Building Better Digital Experiences</h2>
+
+                    <div class="services-body-grid">
+                        <div class="service-text-block">
+                            <p class="service-paragraph">
+                                I help businesses use content strategy and customer behavior analysis to build better
+                                digital experiences. I look at how customers discover, interact with, and move through a
+                                website or product, then turn those observations into practical recommendations for
+                                improving the experience, content, and overall product.
+                            </p>
+                        </div>
+                        <div class="service-text-block">
+                            <p class="service-paragraph">
+                                With a background in computer engineering and hands-on experience in marketing, customer
+                                analysis, content, and digital products, I bring a combination of technical thinking,
+                                creative strategy, and business understanding to every project I work on.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="services-skills-tags">
+                        <span class="service-pill active"><i class="fa-solid fa-asterisk"></i> Content Strategy</span>
+                        <span class="service-pill">Customer Behavior Analysis</span>
+                        <span class="service-pill">Technical Thinking</span>
+                        <span class="service-pill">Creative Strategy</span>
+                        <span class="service-pill">UX & Product Improvements</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="contact-container">
+                <!-- Section Label -->
+                <div class="section-label">
+                    <span class="label-number">04 /</span>
+                    <span class="label-text">GET IN TOUCH</span>
+                </div>
+
+                <!-- Contact Glass Card -->
+                <div class="contact-glass-card">
+                    <span class="contact-sub-caption">HAVE A PROJECT, ROLE, OR INTERESTING PROBLEM?</span>
+
+                    <h2 class="contact-headline">
+                        Let’s make<br>
+                        <span class="headline-italic">something useful.</span>
+                    </h2>
+
+                    <!-- Embedded Email Icon CTA Button -->
+                    <div class="contact-email-wrapper">
+                        <a href="mailto:077bct090@ioepc.edu.np" class="contact-email-icon-btn"
+                            aria-label="Send Email to 077bct090@ioepc.edu.np">
+                            <span class="email-icon-circle"><i class="fa-solid fa-envelope"></i></span>
+                            <span class="email-btn-text">Send an Email</span>
+                            <span class="arrow-symbol">↗</span>
+                        </a>
+                    </div>
+
+                    <div class="contact-footer-pills">
+                        <a href="mailto:077bct090@ioepc.edu.np" class="contact-pill active"><i
+                                class="fa-solid fa-envelope"></i> Direct Email</a>
+                        <a href="https://linkedin.com" target="_blank" class="contact-pill"><i
+                                class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+                        <a href="#" class="contact-pill"><i class="fa-solid fa-paper-plane"></i> Let's Collaborate</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <!-- Brand Column -->
+                <div class="footer-brand-col">
+                    <a href="#home" class="brand-logo footer-logo">
+                        <span class="logo-box">SS</span>
+                        <span class="logo-text">Suruchi Shah</span>
+                    </a>
+                    <p class="footer-brand-desc">
+                        Computer Engineer & Marketing Strategist. Combining technical thinking, user behavior analysis,
+                        and creative strategy.
+                    </p>
+                </div>
+
+                <!-- Navigation Column -->
+                <div class="footer-links-col">
+                    <h4 class="footer-col-title">Navigation</h4>
+                    <ul class="footer-link-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Column -->
+                <div class="footer-contact-col">
+                    <h4 class="footer-col-title">Connect</h4>
+                    <p class="footer-email-text">
+                        <i class="fa-solid fa-envelope"></i> 077bct090@ioepc.edu.np
+                    </p>
+                    <p class="footer-location-text">
+                        <i class="fa-solid fa-location-dot"></i> Janakpurdham, Nepal
+                    </p>
+
+                    <div class="footer-socials">
+                        <a href="mailto:077bct090@ioepc.edu.np" aria-label="Email"><i
+                                class="fa-solid fa-envelope"></i></a>
+                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Suruchishah" target="_blank" aria-label="GitHub"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Copyright Bar -->
+            <div class="footer-bottom-bar">
+                <p class="copyright-text">&copy; 2026 Suruchi Shah. All rights reserved.</p>
+                <button class="back-to-top-btn" id="btn-back-to-top">
+                    <span>Back to Top</span>
+                    <span class="arrow-symbol">↑</span>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+
+</html>

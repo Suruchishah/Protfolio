@@ -1,0 +1,90 @@
+export default {
+  name: 'profile',
+  title: 'Hero Profile',
+  type: 'document',
+  fields: [
+    {
+      name: 'name',
+      title: 'Full Name',
+      type: 'string',
+      initialValue: 'Suruchi Shah',
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      name: 'roleBadge',
+      title: 'Left Badge Tagline',
+      type: 'string',
+      initialValue: 'COMPUTER ENGINEER / BEHAVIOR ANALYST / STRATEGIST',
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      name: 'heroHeadlineTop',
+      title: 'Hero Headline (Top Line)',
+      type: 'string',
+      initialValue: 'COMPUTER ENGINEER / BEHAVIOR ANALYST /',
+    },
+    {
+      name: 'heroHeadlineBottom',
+      title: 'Hero Headline (Bottom Line)',
+      type: 'string',
+      initialValue: 'STRATEGIST',
+    },
+    {
+      name: 'bioDescription',
+      title: 'Bio Description',
+      type: 'text',
+      initialValue: 'I leverage technical engineering thinking, customer behavior analysis, and content strategy to build impactful digital experiences.',
+    },
+    {
+      name: 'portraitImage',
+      title: 'Model Portrait Image (PNG with white or clean background)',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    },
+    {
+      name: 'cardLeftTitle',
+      title: 'Left Hero Card Title',
+      type: 'string',
+      initialValue: 'Engineering & Systems',
+    },
+    {
+      name: 'cardLeftText',
+      title: 'Left Hero Card Text',
+      type: 'string',
+      initialValue: 'B.E. Computer Engineering graduate focused on digital infrastructure & problem solving.',
+    },
+    {
+      name: 'cardRightTitle',
+      title: 'Right Hero Card Title',
+      type: 'string',
+      initialValue: 'Behavior & Strategy',
+    },
+    {
+      name: 'cardRightText',
+      title: 'Right Hero Card Text',
+      type: 'string',
+      initialValue: 'Analyzing user friction & connecting marketing insights with product growth.',
+    },
+    {
+      name: 'graduateYear',
+      title: 'Graduate Metric Label',
+      type: 'string',
+      initialValue: '2025 B.E. Graduate',
+    },
+    {
+      name: 'skillPills',
+      title: 'Hero Skill Tags',
+      type: 'array',
+      of: [{ type: 'string' }],
+      initialValue: [
+        'Customer Behavior Analysis',
+        'Content Strategy',
+        'Website Optimization',
+        'Product & UX Strategy',
+        'Technical Problem Solving',
+      ],
+    },
+  ],
+};

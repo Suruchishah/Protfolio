@@ -1,0 +1,27 @@
+{
+  "name": "suruchi-shah-portfolio-studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sanity Studio v3 CMS for Suruchi Shah Portfolio",
+  "main": "sanity.config.js",
+  "scripts": {
+    "dev": "sanity dev",
+    "start": "sanity start",
+    "build": "sanity build",
+    "deploy": "sanity deploy"
+  },
+  "keywords": [
+    "sanity",
+    "cms",
+    "portfolio"
+  ],
+  "dependencies": {
+    "sanity": "^3.20.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.11"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0"
+  }
+}
