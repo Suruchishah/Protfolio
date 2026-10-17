@@ -6,7 +6,7 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-    const IMAGE_PATH = 'assests/image.png';
+    const IMAGE_PATH = 'assets/image.png';
     
     // DOM Canvas Elements
     const canvas = document.getElementById('model-canvas');
