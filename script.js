@@ -7,6 +7,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     const IMAGE_PATH = 'assets/image.png';
+    const FALLBACK_IMAGE_PATH = 'assests/image.png';
     
     // DOM Canvas Elements
     const canvas = document.getElementById('model-canvas');
@@ -201,7 +202,16 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         img.onerror = () => {
-            console.error(`Failed to load image from path: ${IMAGE_PATH}`);
+            console.warn(`Primary image path failed (${IMAGE_PATH}), trying fallback (${FALLBACK_IMAGE_PATH})...`);
+            const fallbackImg = new Image();
+            fallbackImg.src = FALLBACK_IMAGE_PATH;
+            fallbackImg.onload = () => {
+                processedCanvas = removeWhiteBackground(fallbackImg);
+                renderModel();
+            };
+            fallbackImg.onerror = () => {
+                console.error(`Failed to load image from both ${IMAGE_PATH} and ${FALLBACK_IMAGE_PATH}`);
+            };
         };
     }
 
