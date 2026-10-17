@@ -1117,13 +1117,13 @@ body.nav-open {
 }
 
 .footer-email-text a {
-    color: inherit;
+    color: #ffffff;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .footer-email-text a:hover {
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .footer-socials {
